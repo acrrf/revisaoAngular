@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './template/header/header.component';
 import { HomeComponent } from './template/home/home.component';
 import { FooterComponent } from './template/footer/footer.component';
+import { CachorroComponent } from './components/produtos/cachorro/cachorro.component';
+import { GatoComponent } from './components/produtos/gato/gato.component';
+import { GatoCachorroComponent } from './components/produtos/gato-cachorro/gato-cachorro.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    CachorroComponent,
+    GatoComponent,
+    GatoCachorroComponent
   ],
   imports: [
     BrowserModule,
