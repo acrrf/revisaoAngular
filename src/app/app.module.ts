@@ -8,7 +8,9 @@ import { HomeComponent } from './template/home/home.component';
 import { FooterComponent } from './template/footer/footer.component';
 import { CachorroComponent } from './components/produtos/cachorro/cachorro.component';
 import { GatoComponent } from './components/produtos/gato/gato.component';
-import { GatoCachorroComponent } from './components/produtos/gato-cachorro/gato-cachorro.component';
+import { CadastrarProdutoComponent } from './components/produtos/cadastrar-produto/cadastrar-produto.component';
+import { FormsModule } from '@angular/forms';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { GatoCachorroComponent } from './components/produtos/gato-cachorro/gato-
     FooterComponent,
     CachorroComponent,
     GatoComponent,
-    GatoCachorroComponent
+    CadastrarProdutoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
